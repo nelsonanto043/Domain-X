@@ -1,4 +1,4 @@
-from turtle import color
+
 import streamlit as st
 
 try:
@@ -26,39 +26,4 @@ except ValueError as e:
     st.balloons()
     st.snow()
     
-
-import streamlit as st
-
-st.markdown(
-    """
-    <style>
-    /* Full app background */
-    .stApp {
-        background: linear-gradient(-45deg, #1e3c72, #2a5298, #0f2027, #203a43);
-        background-size: 400% 400%;
-        animation: gradientBG 12s ease infinite;
-        color: white;
-    }
-
-    @keyframes gradientBG {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-
-    /* Text color fix */
-    h1, h2, h3, p, span {
-        color: white !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
-
-               
-
-
 
