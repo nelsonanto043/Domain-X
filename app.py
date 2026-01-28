@@ -23,7 +23,6 @@ try:
     st.header ("   -----MAKES A NEW CHAPTER OF LIFE !-----")
 except ValueError as e:
     st.error("enter valid input")
-    st.balloons()
-    st.snow()
+    
     
 
